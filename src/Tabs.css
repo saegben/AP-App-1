@@ -1,0 +1,110 @@
+/* Body */
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+}
+  
+/* Tabs Bar */
+.tab {
+    overflow: hidden;
+    background-color:  #440D9B;
+    
+    border: 1px solid #ccc;
+    border-bottom-color: #ffffff;
+}
+  
+/* Default Tab Buttons */
+.tab button {
+    background-color: #ccc;
+    float: left;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    font-size: 13px;
+    font-family: monospace;
+}
+.tab button:hover{
+    background-color: #B5AEFF;
+}
+  
+/* Selected Tab Button */
+.tab button.active {
+    background-color: #ffffff;
+}
+  
+/* Content of Selected Tab */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #ffffff;
+    height: 99%;
+}
+  
+
+/* Topics Heading */
+.heading {
+    text-align: center;
+    border: none;
+    font-size: 15px;
+  
+    width: 230px;
+    height: 70px;
+}
+  
+/* Search Container */
+.search-container {
+    text-align: center;
+    border-radius: 2px;
+  
+    width: 600px;
+}
+  
+/* Search Input Box */
+input[type=search-box] {
+    display: inside;
+    border: 1px solid #440D9B;
+    border-right: none;
+  
+    width: 490px;
+    height: 28px;
+}
+input::placeholder {
+    color: #ccc;
+}
+input:focus {
+    outline: none;
+}
+  
+/* Search Button */
+.search-button {
+    background-color: #440D9B;
+    color: #ffffff;
+    border: 1px solid #440D9B;
+    cursor: pointer;
+  
+    width: 100px;
+    height: 32px;
+}
+.search-button:hover {
+    background-color: #B5AEFF;
+}
+
+
+/* Logout Button */
+.logout-button {
+    background-color: #ccc;
+    padding: 6px 16px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 6px;
+    font-family: monospace;
+    font-size: 13px;
+}
+.logout-button:hover {
+    opacity: 0.6;
+}
