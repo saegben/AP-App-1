@@ -25,14 +25,14 @@ const Home = (props) => {
 
             <div class="container">
 
-                <div class="two-col">
+                <div class="user-pass">
 
-                    <div class="col1">
-                        <label for="username" ><b>Username</b></label>
-                        <input id="username" name="username" type="text" placeholder="Enter Username"></input>
+                    <div class="user-holder">
+                        <label for="user" ><b>Username</b></label>
+                        <input id="user" name="user" type="username" placeholder="Enter Username"></input>
                     </div>
 
-                    <div class="col2">
+                    <div class="pass-holder">
                         <label for="pass"><b>Password</b></label>
                         <input id="pass" name="pass" type="password" placeholder="Enter Password"></input>
                     </div>
@@ -40,7 +40,7 @@ const Home = (props) => {
                 </div>
   
                 <button class="submitButton" onClick={() => navigate("/tabs")}><b>Login</b></button>
-                <button type="button" onClick={() => alert('LOL Bozo')} class="forgotPassword"><b>Forgot Password?</b></button>
+                <button class="forgotPassword" type="button" onClick={() => alert('LOL Bozo')}><b>Forgot Password?</b></button>
                 
             </div>
 

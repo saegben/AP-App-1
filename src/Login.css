@@ -47,7 +47,6 @@ html, body {
   padding: 10px;
   border: 3px solid #ccc;
   position: absolute;
-    
   top: 480px;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -65,7 +64,7 @@ label {
   
   
 /* User Input Boxes */
-input[type=text], input[type=password] {
+input[type=username], input[type=password] {
   padding: 12px 20px;
   margin: auto;
   display: inline-block;
@@ -79,7 +78,7 @@ input::placeholder {
   font: 15px / 3 sans-serif;
 }
   
-.two-col label {
+.user-pass label {
   display: block;
 }
   
